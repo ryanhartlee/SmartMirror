@@ -1,0 +1,74 @@
+body {
+  color: white;
+  background-color: black;
+  margin: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#clock {
+  font-size: 160px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#date {
+  font-size: 45px;
+  font-family: 'Comfortaa', cursive;
+  position: absolute;
+  top: 200px;
+  right: 42px;
+}
+
+#temp {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  float: left;
+}
+
+#conditionPic {
+  position: absolute;
+  top: -50px;
+  right: 70px;
+}
+
+#currentWeather{
+  /* background-color: #222222; */
+  margin: 20px;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  float: left;
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+
+#hourly {
+  /* background-color: #222222; */
+  margin: 20px;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  float: left;
+  bottom: 0;
+  position: absolute;
+}
+
+#daily {
+  /* background-color: #222222; */
+  margin: 20px;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  top: 575px;
+}
+
+tr {
+  margin-bottom: 100px;
+}
+
+.clearfix {
+  overflow: auto;
+}
